@@ -40,6 +40,7 @@ This lets you combine custom tool functions with a high-performance Groq model t
 - The agent uses `ChatGroq` with the model `qwen-qwq-32b`.
 - Requires a `GROQ_API_KEY` environment variable for authentication.
 - Demonstrates calling the math and weather tools and printing the results.
+- Thus, the client script is where MCP collects multiple tools and exposes them to the Groq-backed agent, enabling the agent to call the math and weather functions.
 
 ## Usage
 
